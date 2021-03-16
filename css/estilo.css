@@ -1,0 +1,124 @@
+  body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(13,17,23);
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: #112034;
+    padding: 0px;
+    box-shadow: 4px 0px 0px 0px rgba(27,31,35,0.04);
+  }
+
+  .menu-item{
+    margin: 0px;
+    padding: 16px;
+    height: inherit;
+    width: max-content;
+  }
+
+  .menu-item:hover{
+    background-color: #1f477e;
+  }
+
+  .menu-item a{
+    color: white;
+    text-decoration: none;
+  }
+
+  .menu-item a:focus{
+    opacity: 0.5;
+  }
+
+  .menu-item a:visited{
+    opacity: 0.8;
+  }
+
+  h1, h2, h3, p{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+  }
+
+  .id-card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .subtitle{
+    margin-left: 32px;
+  }
+  .card{
+    border-style: solid;
+    border-radius: 16px;
+    border-width: 1px;
+    border-color: #112034;
+    width: 250px;
+    height: max-content;
+    padding: 32px;
+    margin-bottom: 32px;
+  }
+
+  .card:hover {
+    box-shadow: 4px 4px 8px 0px rgba(17,32,52, 0.5);
+  }
+
+  .id-photo{
+    border-radius: 50%;
+  }
+
+  .escolaridad{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #112034;
+    height: 10vh;
+    justify-items: center;
+  }
+
+  footer p {
+    flex: 1;
+    height: inherit;
+    color: white;
+  }
+
+  .img-escolaridad{
+    border-radius: 15px;
+  }
+
+  .imagen1{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+  }
+
+  .imagen2{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+  }
+
+  .imagen3{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+  }
+
+  .imagen4{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+  }
+
+  .imagen5{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+  }
